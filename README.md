@@ -33,5 +33,8 @@
 - When logged in, travel recruitment post writing and commenting functions are possible
 - Travel solicitation post list
 
- 
-  
+
+
+
+
+-> 학교 컴퓨터에서 작업한 프로젝트를 1년뒤에 정리하려고 확인하니까.. db를 누가 만져서 이상하다..그래도 대충 정리 완... 혹시나 하는 마음에 쓰는데.. git ignore를 모르는게 아니다.. local이였고 root 0000 비번으로 그냥 설정해서 상관없고 귀찮아서 올린거다... 이 프젝은 혼자 하거나 팀프 선택이었는데.. 남한테 피해줄까봐 혼자했다.. spring을 좀 써본 분도 있고 하셔서..난 처음이라 혼자함..그래도 나름 이쁘게 한 듯 음하하하 실제 현업 개발자분께 코드 리뷰도 받고 고쳐야 할 부분도 듣고 좋았던 걸로 기억한다.. 끝!   
