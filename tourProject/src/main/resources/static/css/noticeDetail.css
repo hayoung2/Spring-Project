@@ -1,0 +1,35 @@
+ .notice-table {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 5vw;
+            margin-top: 2vw; /* Add spacing below the table */
+        }
+        
+        .notice-table th {
+            text-align: left;
+        }
+
+        .notice-table td {
+            text-align: left;
+            padding-top: 15px; /* Spacing inside the cells for better readability */
+            padding-bottom: 15px;
+        }
+
+        .navigation {
+            margin-top: 30px;
+            text-align: center; /* Add space above the navigation links */
+        }
+
+        .navigation a, .navigation p {
+            display: inline-block;
+            margin-right: 10px;
+            margin-left: 10px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }

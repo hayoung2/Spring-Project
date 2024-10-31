@@ -1,0 +1,32 @@
+.inquiry-board {
+    margin: 20px;
+}
+
+.inquiry-board table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.inquiry-board th, .inquiry-board td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.inquiry-board th {
+    background-color: #f2f2f2;
+}
+
+.inquiry-board td {
+    background-color: #ffffff;
+}
+
+.inquiry-board a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.inquiry-create-button {
+    text-align: center;
+    margin-top: 20px;
+}

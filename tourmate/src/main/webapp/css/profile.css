@@ -1,0 +1,68 @@
+.profile-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vw;
+    margin-right: 2vw;
+}
+
+
+
+.profile-card {
+    width: 20%; 
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center; /* 중앙 정렬 (가로) */
+    align-items: center; /* 중앙 정렬 (세로) */
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #FDFDFC;
+}
+
+
+
+.profile-card img {
+    width: 70%;
+    height: auto;
+    object-fit: cover; 
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 텍스트를 카드의 세로 중앙에 정렬합니다. */
+    width: 37%;
+}
+
+.profile-info h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.profile-info p {
+    color: #777;
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+    background-color: #eee;
+}

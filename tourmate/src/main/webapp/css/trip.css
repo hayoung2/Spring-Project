@@ -1,0 +1,122 @@
+
+.trip-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7vw;
+    margin-top: 5vw;
+    justify-content: center;
+}
+
+
+.trip-header > div:first-child {
+    display: flex;
+    align-items: center;   
+}
+
+.trip-header > div:last-child {
+    margin-left: auto;    
+}
+
+
+.trip-user h4 {
+    margin-right: 20px;
+    margin-bottom: -10px;  
+}
+
+.trip-card {
+	background-color: white;
+    width: calc(40%); 
+    height: calc(10%);
+    margin-bottom: 20px;    /* 아래쪽 간격 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 5vw;
+    box-sizing: border-box;
+}
+
+.trip-card h4{
+	margin-left: 0.9vw;
+}
+
+
+
+.trip-header {
+    display: flex;
+    align-items: center;            
+    margin-bottom: 15px;         
+}
+
+.trip-header div img {
+    margin-right: 10px;
+}
+
+.trip-header h4, .trip-card h4 {
+    font-size: 18px;
+    font-weight: bold;   /* 굵게 */
+    margin-bottom: 10px;
+}
+
+#content{
+    font-size: 12px;
+    color: gray;          
+    white-space: nowrap;  
+    overflow: hidden;     
+    text-overflow: ellipsis;    
+    margin-left: 0.9vw;
+}
+
+.trip-tags{
+	margin-top: 1vw;
+}
+
+.trip-tags span {
+    background-color: #f5f5f5; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+
+.trip-user {
+    display: flex;
+ 
+    align-items: center;
+    float: right;
+    font-size: 14px;
+}
+
+.trip-user h5 {
+    margin-right: 13px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.trip-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: black;
+}
+
+.pagination a:hover {
+    background-color: #eee;
+}

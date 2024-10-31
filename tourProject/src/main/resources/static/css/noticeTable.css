@@ -1,0 +1,56 @@
+/* 공통 컨테이너 스타일 */
+.notice-container {
+    margin-top: 3vw; /* 상단 여백 */
+    margin-bottom: 10vw; /* 하단 여백 */
+    overflow-x: auto; /* 너비가 충분하지 않을 때 스크롤바 표시 */
+}
+
+
+.notice-container table {
+    width: 80%; 
+      border-collapse: collapse;
+    border-spacing: 0 10px; 
+    margin: 0 auto; 
+}
+
+.notice-container th,
+.notice-container td {
+    border: 1px solid #ddd; 
+    padding: 15px; /* 셀 패딩 */
+    text-align: center; /* 셀 내용 중앙 정렬 */
+    vertical-align: middle; /* 셀 내용 수직 중앙 정렬 */
+}
+
+.notice-container th {
+    background-color:#F2F3FF; /* 헤더 배경색 */
+    color: #333; /* 헤더 텍스트 색상 */
+}
+
+
+.notice-container div {
+    text-align: center; /* 페이지네이션 중앙 정렬 */
+    margin-top: 30px; /* 테이블과의 상단 여백 */
+  
+}
+
+.notice-container .pagination a {
+    display: inline-block; /* 링크를 인라인 블록 요소로 표시 */
+    margin: 0 5px; /* 링크 사이 간격 */
+    padding: 5px 10px; /* 링크 내부 패딩 */
+    border: 1px solid #ddd; /* 링크 경계 */
+    color: #337ab7; /* 링크 색상 */
+    text-decoration: none; /* 링크 밑줄 제거 */
+}
+
+.notice-container .pagination a.active,
+.notice-container .pagination a:hover {
+    background-color: #337ab7; /* 활성 및 호버 상태 배경색 */
+    color: white; /* 활성 및 호버 상태 텍스트 색상 */
+}
+
+.notice-container .pagination b {
+    display: inline-block; /* 현재 페이지 번호를 인라인 블록 요소로 표시 */
+    padding: 5px 10px; /* 현재 페이지 번호 패딩 */
+    background-color: #337ab7; /* 현재 페이지 번호 배경색 */
+    color: white; /* 현재 페이지 번호 텍스트 색상 */
+}

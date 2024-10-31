@@ -1,0 +1,85 @@
+
+.inquiry-detail, .comment-form, .comment-list {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+.inquiry-detail h2, .inquiry-detail p {
+    text-align: center; /* 가운데 정렬 */
+    color: #333;
+}
+
+.inquiry-detail p {
+    color: #666;
+      margin-right: 8vw !important;
+    margin-left: 8vw !important;
+    line-height: 2;
+}
+
+/* 작업 링크 스타일 */
+.inquiry-actions {
+    text-align: right; /* 오른쪽 정렬 */
+}
+
+.inquiry-actions a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.inquiry-actions a.delete {
+    background-color: #dc3545;
+}
+
+/* 댓글 폼 스타일 */
+.comment-form {
+    text-align: right; /* 댓글 작성 버튼 오른쪽 정렬 */
+}
+
+.comment-form textarea {
+    display: block; /* 블록 요소로 만들어 왼쪽 정렬 */
+    width: 93%; /* 가로 크기 고정 */
+    height: 110px; /* 세로 크기 고정 */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    resize: none; /* 크기 조절 비활성화 */
+}
+
+.comment-form input[type="submit"] {
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.comment-form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* 댓글 목록 스타일 */
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.comment:last-child {
+    border-bottom: none;
+}
+
+.comment p {
+    margin: 0;
+    color: #333;
+}
