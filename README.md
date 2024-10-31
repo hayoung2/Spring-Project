@@ -1,4 +1,4 @@
-# TOURMATE Folder - SERVLET || tourProject Folder - Java Spring
+# tourmate Folder - SERVLET || tourProject Folder - Spring
 ### Development Environment: MySQL Workbench, Eclipse IDE (Spring, Servlet)
 ### Development Period: 2023/10 ~ 2023/12
 ### Results
